@@ -115,7 +115,6 @@ Warnings will be displayed in a batch at the end of the execution.
     Write-Error @errorArgs
     $script:assigningPermission = $null #resetting the variable every time the processing fails
 
-
 }
 
 Function Set-AssignedPermissionFlag {
